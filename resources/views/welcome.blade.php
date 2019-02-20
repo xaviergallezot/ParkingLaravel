@@ -61,6 +61,10 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            .soustitre{
+              font-size : 19px ;
+              font-weight: 100 ;
+            }
         </style>
     </head>
     <body>
@@ -81,7 +85,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    PPE PARKING LARAVEL <br>
+                    <div class="soustitre">
+
+                  Xavier Gallezot/Calvin Inthasakubol
+                </div>
                 </div>
 
                 <div class="links">
