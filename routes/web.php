@@ -20,5 +20,8 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/acceuil', function(){
-  return view ('acceuil') ; 
+  return view ('acceuil') ;
 });
+Route::get('/acceuil/reserve', function(){
+  return view ('reserve') ;
+}) ; 

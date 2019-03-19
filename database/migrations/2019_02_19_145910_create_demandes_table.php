@@ -1,4 +1,4 @@
-<?php
+vel <?php
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
@@ -15,9 +15,12 @@ class CreateDemandesTable extends Migration
     {
         Schema::create('reservation', function (Blueprint $table) {
             $table->increments('id');
-            $table->date('date_debut');
-            $table->date('date_fin') ;
+            $table->integer('duree') ;
             $table->timestamps();
+            $table->integer('id_user')->unsigned() ;
+            $table->integer('id_place')->unsigned() ;
+            $table->foreign('id_place')->references('id')->on('places')->onDelete('cascade') ;
+            $table->foreign('id_user')->references('id')->on('users')->onDelete('cascade') ;
         });
     }
 

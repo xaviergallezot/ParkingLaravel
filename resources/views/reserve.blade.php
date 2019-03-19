@@ -107,9 +107,14 @@
                             </a>
                         </div>
 
+
+                      </div>
+                      <div class="information" align=center>
+                        <p>Well done vous avez reserver votre place le numeros est : </p>
+                      </div>
                         <div class="baspage">
                           <p align=center>Contactez nous</p>
-                    </div>
-                    </div>
+                        </div>
+
               </body>
 </html>
