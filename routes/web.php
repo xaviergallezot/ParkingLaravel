@@ -24,4 +24,7 @@ Route::get('/acceuil', function(){
 });
 Route::get('/acceuil/reserve', function(){
   return view ('reserve') ;
-}) ; 
+}) ;
+Route::get('/admin', function(){
+  return view ('admin') ; 
+});
