@@ -105,7 +105,8 @@
 
                         <div class="form-group row mb-0">
                             <getdiv class="col-md-6 offset-md-4">
-                                <button href="admin"type="submit" class="btn btn-primary">
+
+                                <button href="http://localhost:8000/acceuil"type="submit" class="btn btn-primary">
                                     {{ __('Envoyer') }}
                                 </button>
                             </div>

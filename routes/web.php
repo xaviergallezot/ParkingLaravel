@@ -20,11 +20,12 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/acceuil', function(){
+  
   return view ('acceuil') ;
-});
+})->name('acceuil');
 Route::get('/acceuil/reserve', function(){
   return view ('reserve') ;
 }) ;
 Route::get('/admin', function(){
-  return view ('admin') ; 
-});
+  return view ('admin') ;
+})->name('admin');
