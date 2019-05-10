@@ -62,16 +62,14 @@
                                   <a class="dropdown-item" href="home">
                                                   {{__('Home')}}
                                   </a>
-                                  <form id="logout-form" action="{{ route('acceuil') }}" method="POST" style="display: none;">
+                                  <form id="logout-form" action="{{ route('home') }}" method="POST" style="display: none;">
                                                                     @csrf
                                   </form>
 
-                                    <a class="dropdown-item" href="acceuil">
+                                    <a class="dropdown-item" href="{{route('accueil')}}">
                                                      {{__('Mon compte')}}
                                                    </a>
-                                                   <form id="logout-form" action="{{ route('acceuil') }}" method="POST" style="display: none;">
-                                                       @csrf
-                                                   </form>
+
                                                    <a class="dropdown-item" href="{{ route('logout') }}"
                                                       onclick="event.preventDefault();
                                                                     document.getElementById('logout-form').submit();">

@@ -7,7 +7,7 @@
 
     <h1 class="titre" align=center>Bienvenue sur l'application de réservation des places de parking</h1>
     <div class="contenu" align= center>
-        <a href="">
+        <a href="{{route('reservation.create')}}">
           <p>Reserver une place</p>
         </a>
 
